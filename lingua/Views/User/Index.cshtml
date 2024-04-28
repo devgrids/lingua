@@ -1,0 +1,27 @@
+﻿@* @{
+	Layout = null;
+}
+ *@
+
+ @model List<User>
+
+<h1>Users</h1>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				Email
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var user in Model)
+		{
+			<tr>
+				<td>@Html.DisplayFor(m => user.Email)</td>
+			</tr>
+		}
+	</tbody>
+
+</table>
