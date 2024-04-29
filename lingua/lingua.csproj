@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Login\css\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\css\cards\v1.css" />
   </ItemGroup>
 

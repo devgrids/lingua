@@ -1,0 +1,7 @@
+﻿@{
+    string buttonText = ViewData["ButtonText"] as string;
+    string buttonClass = ViewData["ButtonClass"] as string;
+    string onClick = ViewData["OnClick"] as string;
+}
+
+<button class="btn @buttonClass" onclick="@onClick">@buttonText</button>
