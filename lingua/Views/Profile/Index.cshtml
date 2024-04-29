@@ -1,10 +1,11 @@
-﻿ @model List<Profile>
-
-<h1>Profile</h1>
+﻿<h1>Profile</h1>
 
 <p>
 	<a asp-action="Create">Crear</a>
 </p>
+
+<button type="button" onclick="window.location.href='@Url.Action("Create")'">Crear</button>
+
 
 <table class="table">
 	<thead>
@@ -19,16 +20,6 @@
 		</tr>
 	</thead>
 	<tbody>
-		@foreach (var profile in Model)
-		{
-			<tr>
-				<td>@Html.DisplayFor(m => profile.EnglishLevel)</td>
-
-				<td>@Html.DisplayFor(m => profile.User.Email)</td>
-
-				<td></td>
-			</tr>
-		}
 	</tbody>
 
 </table>

@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace lingua.dal
 {
-	internal class DalConnection
+	public class dalConnection
 	{
+		public static String GetConnection()
+		{
+			//var strConnection = @"Data Source=LEONIDAS-MV\SQLEXPRESS;Initial Catalog=lingua;uid="";pwd=""";
+			var strConnection = @"Data Source=LEONIDAS-MV\SQLEXPRESS;Initial Catalog=lingua;Integrated Security=True";
+			return strConnection;
+		}
 	}
 }

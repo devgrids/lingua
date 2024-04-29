@@ -6,6 +6,15 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lingua", "lingua\lingua.csproj", "{966D509B-ACD7-4DC8-9E41-A46507E7E5F8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lingua.dal", "lingua.dal\lingua.dal.csproj", "{0D5732C5-23F8-4227-B196-B10C4C4DCD83}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D32B6D0-D2C4-47B3-A829-840FF3232D32} = {5D32B6D0-D2C4-47B3-A829-840FF3232D32}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lingua.be", "lingua.be\lingua.be.csproj", "{5D32B6D0-D2C4-47B3-A829-840FF3232D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lingua.bl", "lingua.bl\lingua.bl.csproj", "{BA116B2B-873D-447B-9BB2-EB9885D5ECA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lingua.tools", "lingua.tools\lingua.tools.csproj", "{53AF5A93-76F7-4485-830B-CC06DB9AF9C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +30,18 @@ Global
 		{0D5732C5-23F8-4227-B196-B10C4C4DCD83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D5732C5-23F8-4227-B196-B10C4C4DCD83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D5732C5-23F8-4227-B196-B10C4C4DCD83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D32B6D0-D2C4-47B3-A829-840FF3232D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D32B6D0-D2C4-47B3-A829-840FF3232D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D32B6D0-D2C4-47B3-A829-840FF3232D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D32B6D0-D2C4-47B3-A829-840FF3232D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA116B2B-873D-447B-9BB2-EB9885D5ECA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA116B2B-873D-447B-9BB2-EB9885D5ECA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA116B2B-873D-447B-9BB2-EB9885D5ECA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA116B2B-873D-447B-9BB2-EB9885D5ECA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53AF5A93-76F7-4485-830B-CC06DB9AF9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AF5A93-76F7-4485-830B-CC06DB9AF9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AF5A93-76F7-4485-830B-CC06DB9AF9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AF5A93-76F7-4485-830B-CC06DB9AF9C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
